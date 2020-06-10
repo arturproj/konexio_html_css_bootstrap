@@ -1,0 +1,60 @@
+/*
+* Artur Dev 2020 - Konexio Promo 3
+* 
+*/
+
+@import "util/colors.css";
+@import "util/responsive.css";
+@import "util/padding.css";
+@import "util/margin.css";
+@import "util/typography.css";
+@import "util/images.css";
+@import "util/flex.css";
+
+body,html{margin: 0;padding: 0;overflow-x: hidden;}
+/* Style NAVBAR */
+  ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    overflow: hidden;
+    background-color: var(--primary);
+    }
+  
+  .navbar li{
+    float: left;
+    font-family: Montserrat_ExtraLight;
+    }
+  
+  .navbar li a {
+    display: block;
+    color: var(--secondary);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    li.brand {
+    display: block;
+    color: var(--secondary);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;    
+    font-family: Montserrat_Regular;
+    }
+    .brand:not(li) { 
+      font-family: Montserrat_Regular;
+    }
+    
+  .navbar li a:hover {
+    padding-bottom: 6px;
+    border-bottom: solid 2px;
+    }
+/* */
+.list-dec-none{
+  list-style-type: none;
+}
+.footer a:link,.footer a:visited ,.footer a:hover ,.footer a:active {
+  color: var(--secondary);
+  background-color: transparent;
+  text-decoration: underline;
+}

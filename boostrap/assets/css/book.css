@@ -1,0 +1,33 @@
+
+
+@import 'utility/colors.css';
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: app-logo-spin infinite 20s linear;
+  }
+}
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ */
+
+.row:not(.str)>[class^=col-]{  
+   height: 25px !important;  
+ }
+[class^=col-sm-]{  
+  align-items: center;
+}
+.jumbotron{
+  min-height: 50vh !important;
+}
+
+.profile{
+  width: 150px !important;
+  height: 150px !important;
+}

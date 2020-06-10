@@ -1,0 +1,15 @@
+:root {
+    --primary: #066ab2;
+    --secondary: #ffffff;
+    --black: #000;
+
+    --text-primary: #066ab2;
+    --text-secondary: #ffffff;    
+}
+
+.bg-primary{background-color: var(--primary)!important;}
+.bg-secondary{background-color: var(--secondary)!important;}
+
+.text-primary{color: var(--primary)!important;}
+.text-secondary{color: var(--secondary)!important;}
+.text-black{color: var(--black)!important;}
